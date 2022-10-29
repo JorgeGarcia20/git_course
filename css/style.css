@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #333;
+}
+
+.posts {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.post {
+    margin: 30px 10px;
+}
+
+.post .post-title {
+    margin-bottom: 20px;
+}
+
+.post .post-content {
+    text-align: justify;
+}
+
+.post .date{
+    display: block;
+    margin-top: 20px;
+    color: #222;
+    text-align: right;
+}
