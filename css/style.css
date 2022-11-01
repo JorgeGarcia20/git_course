@@ -8,7 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.main-container {
     width: 70%;
     height: auto;
     margin: 0 auto;
@@ -33,28 +33,31 @@ body{
     font-weight: bold;
 }
 
-.posts {
-    width: 80%;
-    margin: 0 auto;
+.content {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#about-me #porfil-img {
+    width: 30%;
+    padding: 20px;
+}
+
+#about-me #description {
+    width: 70%;
     padding: 20px;
     line-height: 1.5;
-}
-
-.post {
-    margin: 30px 10px;
-}
-
-.post .post-title {
-    margin-bottom: 20px;
-}
-
-.post .post-content {
-    text-align: justify;
-}
-
-.post .date{
-    display: block;
-    margin-top: 20px;
-    color: #222;
-    text-align: right;
 }
